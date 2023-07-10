@@ -37,7 +37,7 @@ extern "C" {
 	  return(R_NilValue);
 	}else{
 	  
-	  Rprintf("file = %s \n", file);
+	  // Rprintf("file = %s \n", file);
 		// とりあえず空の要素を5000個持つリストを生成する
 	  PROTECT(my_list = allocVector(VECSXP, 5000));  pa++; // pa++ 1; // 2019 06 10 1000 -> 5000
 // Rprintf("allocVector\n");
