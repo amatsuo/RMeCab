@@ -1,5 +1,5 @@
 # 2008 03 28 # the third arg omitted
-RMeCabC <-
+RMeCabCD <-
 function(str, mypref = 0, dic = "", mecabrc = "", etc = ""){
 #   gc()
   if(!is.character (str)){
