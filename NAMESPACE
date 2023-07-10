@@ -3,6 +3,9 @@ useDynLib(RMeCab)
 
 export(RMeCabC)
 
+export(RMeCabCD)
+
+
 export(RMeCabDF)
 
 export(RMeCabFreq)
