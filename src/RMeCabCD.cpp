@@ -6,7 +6,7 @@
 /* 文字列と解析方法が引数 */
 extern "C" {
   // 2005 03 28 第三引数 (入力文の長さ) を削った
-  SEXP  RMeCabC(SEXP str, SEXP mypref, SEXP mydic){ 
+  SEXP  RMeCabCD(SEXP str, SEXP mypref, SEXP mydic){ 
 	const char* input = CHAR(STRING_ELT(str, 0));//解析対象文字列
 	const char* dic = CHAR(STRING_ELT(mydic, 0));//指定オプション(辞書だけではない)
 
